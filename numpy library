@@ -38,7 +38,8 @@ print("The multiplication of two matrices is: \n",result_mul)
 result_div=np.divide(arr1,arr2)
 print("Division of Two matricies is: \n",result_div)
 
---------------------#Creating array using ones and zeros-------------------
+#--------------------Creating Matricies using ones and zeros-------------------
+#--------------Zeros Matrix----------------
 ###Creating 3*2 Matricies using zeros:
 arr0=np.zeros((3, 2))
 print("3*2-Zeros Matrices: \n",arr0)
@@ -47,6 +48,7 @@ print("3*2-Zeros Matrices: \n",arr0)
 arr01=np.zeros((3, 3))
 print("3*3-Zeros Matrices: \n",arr01)
 
+#--------------Ones Matrix---------------
 ###Creating 3*2 Matricies using ones:
 arr10=np.ones((3, 2))
 print("3*2-Ones Matrices: \n",arr10)
