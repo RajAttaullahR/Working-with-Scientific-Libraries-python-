@@ -1,4 +1,4 @@
-# Working-with-Scientific-Libraries-python as Numpy
+-------------------------#Working-with-Scientific-Libraries-python as Numpy-------------------
 
 ###Single Dimensional array using numpy
 import numpy a np
@@ -8,3 +8,42 @@ print("One dimensional Array: \n",arr1)
 ###2*3-Dimensional array using numpy:
 arr2=np.array([[10,20,30],[40,50,60]])
 print("Two dimensional array is: \n",arr2)
+
+###3*3-Dimensional array using random method:
+arr4=np.random.randint(0, 10, (3, 3))
+arr4
+
+###3*3-Dimensional array using reshape method:
+ar= np.arange(1,10).reshape(3,3)
+print("3*3 dimensional array is: \n",ar)
+
+-------------------#Arithematic opearation on Matricies using Element wise-------------------------- 
+arr1=([10,20,30],[40,50,60])
+arr2=([70,80,90],[90,80,70])
+
+###Addition of Matricies:
+result_addition=np.add(arr1, arr2)
+print("Addition of two matricies is: \n",result_addition)
+
+###Subtraction of Matricies:
+result_sub=np.subtract(arr1, arr2)
+print("Subtraction of two matricies is : \n",result_sub)
+
+
+###Multiplication of Matricies: 
+result_mul=np.inner(arr1,arr2)
+print("The multiplication of two matrices is: \n",result_mul)
+
+###Divion of Matricies:
+result_div=np.divide(arr1,arr2)
+print("Division of Two matricies is: \n",result_div)
+
+--------------------#Creating array using ones and zeros-------------------
+###Creating Matricies using zeros:
+arr0=np.zeros((3, 2))
+print("Zeros Matrices: \n",arr0)
+
+
+###Creating Matricies using ones:
+arr1=np.ones((3, 2))
+print("Ones Matrices: \n",arr1)
